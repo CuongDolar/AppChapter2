@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage Title="ContentPageExample"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppChapter2.ContentPageExample">
+    <ContentPage.Content>
+        <StackLayout Padding="30,30">
+            
+            <Button Text="Array Page" FontAttributes="Italic" Clicked="clicked1"/>
+            <Button Text="ConstructorsPage" FontAttributes="Italic" Clicked="clicked2"/>
+            <Button Text="ReferencePage" FontAttributes="Italic" Clicked="clicked3"/>
+            <Button Text="PropertyValuesPage" FontAttributes="Italic" Clicked="clicked4"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
